@@ -67,6 +67,7 @@ body{
 .box-container img{
     height: 100vh !important;
     width: 100% !important;
+    object-fit: cover !important;
 }
 .box-container2 {
     height: 100vh !important;
@@ -170,6 +171,7 @@ body{
     top: -30px;
     right: 20px;
     border-radius: .3em;
+    object-fit: cover !important;
 
 }
 /* CAR */
@@ -184,6 +186,7 @@ body{
     object-fit: cover;
     border-radius: 1em;
     cursor: pointer;
+    object-fit: cover !important;
 }
 .cars-span::after{
     content: '';
@@ -226,6 +229,13 @@ body{
 }
 .img-card{
     height: 250px !important;
+    border-radius: 1em;
+    object-fit: cover !important;
+}
+.img-card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease !important;
+
 }
 .card-title{
     font-size: 18px !important;
@@ -308,6 +318,7 @@ body{
     border-radius: 50% !important;
     left: -52px;
     cursor: pointer;
+    object-fit: cover !important;
 
 }
 .image-client{
